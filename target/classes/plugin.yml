@@ -1,0 +1,11 @@
+name: ChatImages
+author: henrylang
+description: Allows for images to be shared in chat
+version: 1.0.0
+main: net.henrylang.chatimages.Plugin
+
+commands:
+  sendimage:
+    aliases: [si, sendimg]
+    description: Sends an image in the chat, downsampled to minecraft text size.
+    usage: /sendimage <url> | Make sure the file is a valid image.

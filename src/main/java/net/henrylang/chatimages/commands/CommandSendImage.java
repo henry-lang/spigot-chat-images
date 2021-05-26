@@ -16,7 +16,7 @@ import org.bukkit.command.CommandSender;
 
 import net.md_5.bungee.api.ChatColor;
 
-public class CommandSetImage implements CommandExecutor {
+public class CommandSendImage implements CommandExecutor {
 
 	public boolean onCommand(CommandSender sender, Command cmd, String lbl, String[] args) {
 		if (args.length != 1) return false;
